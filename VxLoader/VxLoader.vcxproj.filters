@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Injector">
+      <UniqueIdentifier>{77c9aba2-c6ac-44dd-aed4-8f87f429131f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Defs">
+      <UniqueIdentifier>{ec0623e5-18a2-4583-8209-c089ffc10290}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MMap.h">
+      <Filter>Injector</Filter>
+    </ClCompile>
+    <ClCompile Include="injector.cpp">
+      <Filter>Injector</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="injector.h">
+      <Filter>Injector</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofer.h">
+      <Filter>Defs</Filter>
+    </ClInclude>
+    <ClInclude Include="Lazy.h">
+      <Filter>Defs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
